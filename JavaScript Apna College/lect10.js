@@ -33,7 +33,7 @@ function calculator(a,b,sumCallback)
 {
     sumCallback(a,b);
 }
-calculator(1,2,sum);//here sum is a callback function  . ok so whenever we pass a function as callback we haqve to make sure we dont pass parenthesis we write only name of the function. bcoz if we write parenthesis , then it means we are executing the function there it self and it wont act like a callback function and will cause an error
+calculator(1,2,sum);//here sum is a callback function  . ok so whenever we pass a function as callback we have to make sure we dont pass parenthesis we write only name of the function. bcoz if we write parenthesis , then it means we are executing the function there itself and it wont act like a callback function and will cause an error
 
 //one more Way
 calculator(3,3,(a,b)=>{

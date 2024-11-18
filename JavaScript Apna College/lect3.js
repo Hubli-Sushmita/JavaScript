@@ -69,7 +69,7 @@ let newstr=str3.toUpperCase();
 console.log(str3);  //note when we use methods on string, it doesnt change the string because strings are immutable in js. instead it returns a new string with modified text or content
 console.log(newstr);
 
-console.log("lowercase ",str3.toLocaleLowerCase());
+console.log("lowercase ",str3.toLowerCase());
 
 console.log(str3.trim()); //removes whitespaces from starting and end of the string
 

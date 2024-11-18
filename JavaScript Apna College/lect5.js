@@ -56,7 +56,7 @@ function findnoofvowels(msg)
     return count;
 }
 console.log(findnoofvowels("aaaeeuhh"));//6
-//same using arrpow function
+//same using arrow function
 const vowelcheck=(msg)=>
 {
     let count=0;
@@ -114,7 +114,7 @@ arr.forEach((val)=>
 {
     console.log(val**2);
 })
-//another way
+//another way using arrow function
 let calcsquare=(num)=>
 {
    console.log(num*num);

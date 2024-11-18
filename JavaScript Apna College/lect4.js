@@ -26,7 +26,7 @@ for(let i of arr2)
 }
 
 console.log("Printing array elements using for in loop: ")
-for(let i in arr2)
+for(let i in arr2) //i acts like a key
 {
     console.log(arr2[i]);
 }
@@ -112,11 +112,11 @@ console.log(fruits);
 fruits.splice(1,1,"tararara"); //mhnje 1st position vrchya 1 element la delete karun tikde tararara liha
 console.log(fruits);
 //one more interesting thing here
-console.log("/n");
+console.log("\n");
 fruits.splice(2); //delets all the elements from index 2 and changes the original array
 console.log(fruits);
 fruits.splice();//if we dont pass anything inside as the parameter then nothing will be changed and original array remains as it is
-console.log("//n");
+console.log("\\n");
 console.log(fruits);
 
 

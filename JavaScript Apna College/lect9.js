@@ -15,7 +15,7 @@ console.log(student.printmarks());
 //js objects have a special property called prototype.Prototype is a reference to an object
 //so whenever we create a js object it has a special property called prototype. and this prototype property is itself a object . means a object has a another object inside it called ad prototype object which has some by default functions and properties
 //so all the objects in js inherit the properties and behavior of this prototype object
-//for example, when we create a array , and we try to push elements inside the arrayb using push method, we dont write push method to push inside the array it is present by default . this behavior of push is inherited by the array object from the prototype objevct when an array object is created\
+//for example, when we create a array , and we try to push elements inside the array using push method, we dont write push method to push inside the array it is present by default . this behavior of push is inherited by the array object from the prototype object when an array object is created
 
 
 //we can create our own prototypes i.e we can set prototype using __proto__

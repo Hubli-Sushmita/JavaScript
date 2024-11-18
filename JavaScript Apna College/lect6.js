@@ -54,14 +54,14 @@ console.log(document.getElementById("heading").tagName); //op H1
 
 
 
-//suppose we have div and script in a body . we further have img,h1 in div then we call body as the parent node of div and script . and div is parent node of img,h1,p,div.here img,h1 are child nodes of div but descendants of body. div anmd script are child nodes of body. Here img and h1 are siblings . similarly , div and script are siblings
+//suppose we have div and script in a body . we further have img,h1 in div then we call body as the parent node of div and script . and div is parent node of img,h1,p,div.here img,h1 are child nodes of div but descendants of body. div and script are child nodes of body. Here img and h1 are siblings . similarly , div and script are siblings
 //firstChild property: it is the read only property of Node interface .It returns the Node's first child in the tree or returns null if the node has no children.
 console.log("");
 console.log(document.body.firstChild);
 //lastChild is opposite of firstChild property
 console.log("");
 console.log(document.body.lastChild);
-//the DOM tree consists iof three types of nodes : 1. text nodes 2. comment nodes  3. element nodes
+//the DOM tree consists of three types of nodes : 1. text nodes 2. comment nodes  3. element nodes
 //inside Dom we will be always working on element nodes only
 //we can get children of a node in following way
 console.log(document.querySelector("div").children);

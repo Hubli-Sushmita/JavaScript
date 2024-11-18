@@ -2,8 +2,8 @@
 //syntax: let promise=new Promise((resolve,reject)=>{//code})
 
 let promise =new Promise((resolve,reject)=>{
-    console.log("i am a promise");
-})
+    console.log("i am a promise");//IT IS THE FIRST LINE THAT GETS EXECUTED IN CONSOLE
+});
 console.log(promise);
 /*
 when you print object of Promise class we get 
@@ -18,6 +18,7 @@ let promise1 =new Promise((resolve,reject)=>{
     resolve(123);
 })//promise gets compulsoryly fulfilled no matter what and promiseResult will be 123 and promiseState will be fulfilled
 console.log(promise1);
+
 let promise2=new Promise((resolve,reject)=>{
     console.log("i am a promise");
     reject("haha rejected");//output will be shown in the form of an error message
@@ -43,7 +44,7 @@ getData2(3);
 //usually we get promises we dont create them in web dev. we just need to learn how to use these promises 
 //there are two methods to use promises : promise.then((res)=>{...})  , promise.catch((err)=>{...})
 //if promise is fullfilled and then we want to do something then we use .then() method on promise object
-//if promise is rejected and then we want to do soething then we use .catch() method on promise object   
+//if promise is rejected and then we want to do something then we use .catch() method on promise object   
 
 
 const getPromise=()=>{
@@ -130,6 +131,7 @@ getData1(3).then((res)=>{
 }).then((res)=>{
     console.log("successsushi");
 })
+
 
 
 

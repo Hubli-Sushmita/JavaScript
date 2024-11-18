@@ -55,11 +55,9 @@ console.log(Student["name"]);
 console.log(typeof Student);    //op is object
 console.log(typeof Student["age"]);  //op is number
 
-//if obkjecty is of const type, then we can update the value of its keys 
-//but is any data is of const type then we cannot update it
+//if object is of const type, then we can update the value of its keys 
+//but if any data is of const type then we cannot update it
 
-
-
-
-
+var myString = "A,B,C";var myTextArray = myString.split(',');
+console.log(myTextArray);
 

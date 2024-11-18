@@ -41,7 +41,7 @@ div.after(el4); //adds after the node(outside)
 el3.remove();
 
 //Question
-//Create a <p> tag in html, give it a class and some styling.now create new class in CSS and try to append this class to the <p> element..solve this problem using vlassList
+//Create a <p> tag in html, give it a class and some styling.now create new class in CSS and try to append this class to the <p> element..solve this problem using classList
 let para=document.querySelector(".para1");
 //so now instead of using setAttribute() method, we will use classList bcoz setAttribute method completely overwrites the existing css with new class css but we want to append the new class not overwrite the existing one. so we use classList method
 //to add new class in classlist we use .add("newclassname") method and to remove we use .remove("classname");
